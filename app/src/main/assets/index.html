@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="views/app.css" > -->
+    <title>Document</title>
+    <style>
+
+
+body {
+flex-wrap: wrap;
+background-color: black;
+}
+#container1 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+#container2 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+#container3 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+#container4 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+
+#container5 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+
+#container6 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+
+#container7 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+
+
+#container8 {
+align-content: center;
+border: 1px;
+border-radius: 12px;
+background-color: blanchedalmond;
+border-color: rgb(1, 44, 30);
+border: solid;
+padding-top: 1em;
+padding-left: 1em;
+width: 150px;
+height: 150px;
+margin: auto;
+}
+
+#seed {
+    height: 100px;
+    width: 100px;
+justify-content: center;}
+
+
+
+#plants {
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em;}
+
+button {
+    background-color: rgb(18, 91, 155);
+    border-radius: 12px;
+    border-color: rgb(1, 44, 30);
+    width: 30px;
+    height:30px;
+    color: aliceblue;
+text-align: center;}
+
+#heart {
+    height: 100px;
+    width: 100px;
+justify-content: center;
+}
+
+#health{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em;
+}
+
+
+#bottle{
+    height: 100px;
+    width: 50px;
+justify-content: center;
+}
+
+#water{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em;
+}
+
+
+
+#cottonpic{
+    height: 100px;
+    width: 90px;
+justify-content: center;
+}
+
+#cotton{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em
+}
+
+
+
+#applepic{
+    height: 100px;
+    width: 90px;
+justify-content: center;
+}
+
+#apple{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em
+}
+
+
+#orepic{
+    height: 100px;
+    width: 120px;
+justify-content: center;
+}
+
+#ore{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em
+}
+
+
+#woodpic{
+    height: 100px;
+    width: 120px;
+justify-content: center;
+}
+
+#wood{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em
+}
+
+
+#stonepic{
+    height: 100px;
+    width: 120px;
+justify-content: center;
+}
+
+#stone{
+    font-size: 2em;
+    flex-wrap: wrap;
+text-align: right;
+padding-right: 1em
+}
+
+.texta{
+    text-align: center;
+    color: aliceblue;
+}
+</style>
+
+
+
+</head>
+<body>
+
+<h1 class = "texta">Essential Needs</h1>
+
+<!--HEALTH-->
+<div id ="container1">
+    <img src="heart.png" id ="heart">
+    <div id ="health">0</div>
+    <button id="incrementhealth">+</button><button id="decrementhealth">-</button>
+</div>
+<!--Water-->
+
+
+<div id ="container2">
+    <img src="water.png" id ="bottle">
+    <div id ="water">0</div>
+    <button id="incrementWATER">+</button><button id="decrementWATER">-</button>
+</div>
+<!--FOOD-->
+
+
+<div id ="container3">
+    <img src="apple.png" id ="applepic">
+    <div id ="apple">0</div>
+    <button id="incrementAPPLE">+</button><button id="decrementAPPLE">-</button>
+</div>
+
+
+
+<h1 class = "texta">Plants</h1>
+
+
+
+<div id ="container4">
+    <img src="seed.png" id ="seed">
+    <div id ="plants">0</div>
+    <button id="increment">+</button><button id="decrement">-</button>
+</div>
+
+
+
+
+
+<div id ="container5">
+    <img src="cotton.png" id ="cottonpic">
+    <div id ="cotton">0</div>
+    <button id="incrementCOT">+</button><button id="decrementCOT">-</button>
+</div>
+
+
+
+<h1 class = "texta">Building Supplies</h1>
+
+
+
+
+
+
+<div id ="container6">
+    <img src="ore.png" id ="orepic">
+    <div id ="ore">0</div>
+    <button id="incrementore">+</button><button id="decrementore">-</button>
+</div>
+
+
+
+
+
+<div id ="container7">
+    <img src="tree.png" id ="woodpic">
+    <div id ="wood">0</div>
+    <button id="incrementwood">+</button><button id="decrementwood">-</button>
+</div>
+
+
+<div id ="container8">
+    <img src="rock2.png" id ="stonepic">
+    <div id ="stone">0</div>
+    <button id="incrementstone">+</button><button id="decrementstone">-</button>
+</div>
+
+
+
+
+<script src="app.js"></script>
+
+
+
+
+</body>
+</html>
